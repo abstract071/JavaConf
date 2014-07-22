@@ -15,8 +15,7 @@ public class Main {
 		workers.sort(comparator);
 
 		System.out.println("Hello! :)");
-		System.out
-				.println("Here you can see the sorted list of all our workers:");
+		System.out.println("Here you can see the sorted list of all our workers:");
 		printList(workers);
 		System.out.println("What do you want to do with it?");
 		printMenu();
@@ -205,8 +204,7 @@ public class Main {
 		System.out.println("3) Show me the Bottom-3 workers.");
 		System.out.println("4) Save all list to the file.");
 		System.out.println("5) Load another list from the file.");
-		System.out
-				.println("6) A don't want to do anything. Just close this annoying program!");
+		System.out.println("6) A don't want to do anything. Just close this annoying program!");
 		System.out.println("Please, write the munber of menu item: ");
 	}
 }
